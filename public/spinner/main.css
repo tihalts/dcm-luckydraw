@@ -1,0 +1,49 @@
+/* Sets the background image for the wheel */
+div.the_wheel {
+    background-image: url(./wheel_back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-size: 438px 582px; */
+    /* margin: 30px; */
+    width: 438px;
+    height: 582px;
+    margin: auto;
+}
+
+table{
+  border-collapse: separate;
+  white-space: normal;
+  line-height: normal;
+  font-weight: normal;
+  font-size: medium;
+  font-style: normal;
+  color: -internal-quirk-inherit;
+  text-align: start;
+  border-spacing: 2px;
+  font-variant: normal;
+  margin: auto;
+}
+
+td.the_wheel
+{
+    background-image: url(./wheel_back.png);
+    background-position: center;
+    background-repeat: none;
+}
+
+/* canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .image-detail-canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    max-width: 100% !important;
+    max-height: 100% !important;
+  } */
